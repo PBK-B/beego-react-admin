@@ -7,10 +7,24 @@ import Reaxt from 'react';
 
 export interface AppProps {
 	name: string;
+	blogUrl: string;
 }
 
 const App = (props: AppProps) => {
-	return <div>Hello {props.name}</div>;
+	const { name, blogUrl } = props;
+	return (
+		<div className="app_content">
+			<h1>Welcome to beego-react-admin</h1>
+			<p>
+				The server provides API services for applications, and technical support is provided by
+				<a href={blogUrl} target="_blank">
+					{` ${name} `}
+				</a>
+				.
+			</p>
+			<p style={{ color: '#000' }}>Thank you for using beego-react-admin.</p>
+		</div>
+	);
 };
 
 export default App;

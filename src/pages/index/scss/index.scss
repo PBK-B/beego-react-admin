@@ -1,4 +1,22 @@
-* {
-	padding: 0;
-	margin: 0;
+@import url('//fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+*,
+:after,
+:before {
+	box-sizing: border-box;
+	border: 0 solid #e2e8f0;
+}
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+body {
+	font-family: 'Nunito', sans-serif;
+}
+
+.app_content {
+	margin: 0 auto;
+	max-width: 900px;
+	padding: 90px;
 }
