@@ -4,7 +4,7 @@
  * @FilePath: /react-admin/README.md
 -->
 # beego-react-admin
-> 🧊 基于 Beego + React 搭建的一套 beego-react-admin 后台管理程序模版
+> 🧊 基于 Beego + React 搭建的一套 beego-react-admin 后台管理程序模板
 
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/PBK-B/beego-react-admin/react)
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/PBK-B/beego-react-admin/react-router)
